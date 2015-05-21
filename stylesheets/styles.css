@@ -90,7 +90,6 @@ header p {
 .meat{
   border: 4px  dotted orange;
   width: 79%;
-  height: auto;
   position: relative;
   left: 12%;
 }
@@ -98,14 +97,15 @@ header p {
    border: 1px solid purple;
 /*    height: 400px; */
    width: 30%;
-   float:right;
+/*    float:right; */
     position: relative;
+    display: inline-block;
     top: -600px;
+    left: 20%;
  }
 
 .content{
 /*   border: 1px solid black; */
-  height: auto;
   width: 62%;
   position: relative;
 }
@@ -262,12 +262,14 @@ header p {
   width: 75%;
   height: 75%;
   position: realtive;
+  display: inline;
 }
 
 .asSidebar{
   width: 75%;
   height: auto;
   position: relative;
+  display: inline;
 }
 
  /*This section styles the footer*/
