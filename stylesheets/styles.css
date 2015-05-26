@@ -362,3 +362,195 @@ header p {
    color: white;
    font-weight: lighter;
    }
+
+
+@media screen and (max-width: 1218px) {
+    .fheader{
+      margin-top: -35%;
+    }
+
+    .asAuthor{
+      margin-left: -15%;
+    }
+    .asAuthor ul{
+      width: 150%;
+    }
+    header p{
+      font-size:25px;
+    }
+    .company span{
+      font-size: 25px;
+    }
+    .options span{
+      font-size: 25px;
+    }
+}
+
+
+@media screen and (max-width: 1014px) {
+    section, aside{
+      float:none;
+      width: 80%;
+      margin-left:10%;
+    }
+
+    .content h5{
+        font-size:250%;
+        margin: 70px;
+    }
+    .author{
+      margin-left: 5%;
+      margin-top: -5%;
+    }
+    .asAuthor{
+      display:none;
+    }
+    .asAd{
+      margin-top:10%;
+    }
+    .asAd a{
+      float:none;
+      margin-right: 0;
+      margin-left:-0%;
+    }
+    .asSidebar{
+      width: 50%;
+      margin-top: -35%;
+      float:right;
+      clear:left;
+    }
+    .fheader{
+      margin-top:-60%;
+    }
+    .school{
+      left:-15%;
+    }
+    .asAd a{
+      font-size:10px;
+    }
+
+}
+
+@media screen and (max-width: 882px) {
+  .schoolnav{
+    top:-20%;
+    left:-35%;
+  }
+  .school{
+    top: 23%;
+    left:12%;
+  }
+  .footerbox{
+    height:350px;
+  }
+
+  .content h5{
+    font-size: 210%;
+  }
+}
+
+@media screen and (max-width: 876px){
+  .schoolnav{
+    top:-95%;
+  }
+}
+
+@media screen and (max-width: 796px){
+  .mbox{
+    float:none;
+  }
+  .piclinks{
+    display:none;
+  }
+  .footerbox{
+    margin-top: 20%;
+    background-color:white;
+  }
+  .fbox{
+    background-color:white;
+  }
+  .mbox{
+    height:20%;
+    margin-top: 50%;
+    width:60%;
+    margin-left:20%;
+
+  }
+  .mbox h5{
+    margin-top: -80%;
+    font-size:120%;
+    text-align:center;
+    background-color: #145EA7;
+    height:110%;
+    margin-left:15%;
+  }
+  .bottomfoot{
+    width:100%;
+    left:30%;
+    background-color: white;
+    top:8%;
+  }
+  .schoolnav{
+    font-size:5px;
+    left:-60%;
+    top:0%;
+  }
+  .school{
+    left:0;
+    top:50%;
+
+  }
+  .schoolnav a{
+    color:black;
+    float:none;
+  }
+  .school span{
+    font-size: 9px;
+    color:black;
+  }
+  .content h5{
+    font-size: 20px;
+    text-align:center;
+  }
+  .words p{
+    font-size: 14px;
+  }
+  .asSidebar{
+    margin-top:0;
+    float:none;
+    margin-left:25%;
+  }
+  .asAd{
+    margin-left:25%;
+  }
+
+}
+
+@media screen and (max-width:680px){
+    .schoolnav{
+      left:-58%;
+    }
+    .school{
+      left: -30%;
+    }
+    .content h5{
+      font-size:16px;
+    }
+    .words p{
+      font-size: 10px;
+    }
+    .words h3{
+      font-size: 20px;
+    }
+}
+
+@media screen and (max-width:608px){
+  .schoolnav{
+    top:-88%;
+    left:-55%;
+  }
+
+  .content h5{
+    margin: 10% 0 0 0;
+  }
+}
